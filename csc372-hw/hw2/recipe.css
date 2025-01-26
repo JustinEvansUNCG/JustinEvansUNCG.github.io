@@ -1,4 +1,39 @@
 p {
     font-family: verdana;
     font-size: 20px;
-  }
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 18pt;
+    text-align: left;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: 'Georgia';
+    
+}
+
+a {
+    color: #a4a400;
+}
+
