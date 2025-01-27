@@ -17,13 +17,15 @@ h6 {
     font-size: 18pt;
     text-align: left;
     text-decoration: underline;
-    display: inline;
+    display:inline;
 }
 
 h1 {
-    text-align: center;
+    
     font-size: 22pt;
     font-weight: bold;
+    display:block;
+    text-align: center;
 }
 
 body,p {
