@@ -1,4 +1,19 @@
 p {
-    color: darkgrey;
+    
     text-align: center;
+}
+
+body {
+    text-align: center;
+    color: rgb(63, 50, 50);
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+  }
+
+
+div.WIP {
+    color:crimson
 }
