@@ -15,7 +15,6 @@ h6 {
     background-color: #f0f0f0;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 18pt;
-    text-align: left;
     text-decoration: underline;
     display:inline;
 }
@@ -24,8 +23,10 @@ h1 {
     
     font-size: 22pt;
     font-weight: bold;
-    display:block;
+    display: block;
     text-align: center;
+    
+    
 }
 
 body,p {
@@ -51,6 +52,8 @@ a {
 div.Copyright {
     
     font-family: 'monospace';
+    margin-right: 1300px;
+    text-align: right;
 }
 
 div.quotes {
@@ -58,3 +61,4 @@ div.quotes {
     background-color: #FFFFA8;
 
 }
+
