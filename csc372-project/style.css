@@ -38,6 +38,22 @@ h1 {
   
   }
 
+  #flex-cont-details {
+
+    display: flex;
+    
+  
+    padding: 50px;
+  
+    
+    
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+
   .flex-item {
     border-radius: 10px;
     background-color: lightblue;
@@ -53,4 +69,10 @@ h1 {
     height: 150px;
     padding: 10px;
     
+  }
+
+  .detail-img {
+    height: 500px;
+    
+
   }
