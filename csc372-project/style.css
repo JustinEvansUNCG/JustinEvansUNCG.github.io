@@ -1,0 +1,56 @@
+#navbar {
+    display: block;
+    background-color: lightblue;
+}
+header {
+    background-color: lightblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    text-align: center;
+    font-size: 18pt;
+
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+#flex-container {
+
+    display: flex;
+    
+  
+    padding: 20px;
+  
+    
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+
+  .flex-item {
+    border-radius: 10px;
+    background-color: lightblue;
+    
+    text-align: center;
+    margin: 2px;
+    width: 300px;
+    height:300px;
+
+  }
+
+  .flex-img {
+    height: 150px;
+    padding: 10px;
+    
+  }
