@@ -1,9 +1,26 @@
-#navbar {
-    display: block;
-    background-color: lightblue;
+.navbar {
+  display: flex;
+  background-color: lightblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
 }
+
+.flex-nav {
+
+  padding: 20px;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
 header {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 h1,
@@ -12,67 +29,119 @@ h3,
 h4,
 h5,
 h6 {
-    display: block;
-    text-align: center;
-    font-size: 18pt;
+  display: block;
+  text-align: center;
+  font-size: 18pt;
 
 }
 
 h1 {
-    font-size: 24pt;
+  font-size: 24pt;
+}
+
+.home-p {
+  text-align: center;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.details-h {
+  text-align: left;
 }
 
 #flex-container {
 
-    display: flex;
-    
-  
-    padding: 20px;
-  
-    
-    
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  
-  }
+  display: flex;
 
-  #flex-cont-details {
 
-    display: flex;
-    
-  
-    padding: 50px;
-  
-    
-    
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  
-  }
+  padding: 20px;
 
-  .flex-item {
-    border-radius: 10px;
-    background-color: lightblue;
-    
-    text-align: center;
-    margin: 2px;
-    width: 300px;
-    height:300px;
 
-  }
 
-  .flex-img {
-    height: 150px;
-    padding: 10px;
-    
-  }
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
-  .detail-img {
-    height: 500px;
-    
+}
 
-  }
+#flex-cont-details {
+
+  display: flex;
+
+
+  padding: 50px;
+
+
+
+  flex-direction: row;
+  /* justify-content:space-between;*/
+  /*align-items: center;*/
+  flex-wrap: wrap;
+
+}
+
+.flex-item {
+  border-radius: 10px;
+  background-color: lightblue;
+
+  text-align: center;
+  margin: 2px;
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.col1 {
+  width: 35%;
+
+}
+
+.col2 {
+  width: 35%;
+
+}
+
+.col3 {
+  width: 30%;
+  text-align: center;
+}
+
+.flex-img {
+  height: 150px;
+  padding: 10px;
+
+}
+
+.detail-img {
+  height: 500px;
+
+
+}
+
+
+.details-li {
+  /*list-style-position: inside;
+    text-align: center;*/
+  border-radius: 10px;
+  background-color: lightblue;
+
+
+  margin: 2px;
+  width: 250px;
+}
+
+
+footer {
+  display: inline;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+
+  background-color: lightblue;
+}
