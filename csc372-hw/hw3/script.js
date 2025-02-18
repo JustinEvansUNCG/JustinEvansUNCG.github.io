@@ -89,7 +89,7 @@ function remove_meal(event) {
 
     cost += -itemCost;
 
-    if (cost < 0) {
+    if (cost < 2) {
         cost = 0;
     }
 
