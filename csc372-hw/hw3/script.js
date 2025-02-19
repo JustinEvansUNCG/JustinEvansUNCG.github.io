@@ -42,7 +42,12 @@ for (let index = 0; index < food.length; index++) {
     console.log(food);
     element.addEventListener('click', add_to_plan);
 }
+
+
 let totalCost = 0.0;
+
+
+
 function add_to_plan(event) {
 
     if (event.currentTarget.classList[2] === "not-in-plan") {
@@ -84,19 +89,8 @@ function add_to_plan(event) {
 
         mealPlan.appendChild(para);
 
-        //let costText = document.createElement("h1");
-        //costText.append("Cost: " + cost);
-
-
-        //console.log(costText);
-
 
         meals = document.querySelectorAll('.plan-item');
-
-        //if (document.querySelector('.empty') != undefined) {
-
-        //    document.querySelector('.empty').innerHTML = "a";
-        //}
 
         console.log(meals);
         console.log(food);
@@ -159,8 +153,8 @@ function change_balance(event) {
     para.querySelector('.sub-total').append(itemTotal);
 
     //this object will be used to replace the old cost displayed on the website
-    let costText = document.createElement("h1");
-    costText.append("Cost: " + totalCost);
+    
+    let costText = "Cost: " + totalCost;
 
     //retrieves the old cost displayer, and clears it, before replacing it
     let costHeader = document.querySelector("#cost-header");
