@@ -14,6 +14,11 @@
 
 }
 
+
+#example-json {
+  margin-left: 40%;
+}
+
 a {
   text-decoration: none;
 }
@@ -64,6 +69,88 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+}
+
+#flex-admin-view {
+
+  display: flex;
+
+
+  padding: 100px;
+
+
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#flex-edit-fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edit-field {
+  padding: 5px;
+}
+
+#flex-cart {
+
+  display: flex;
+
+
+  padding: 100px;
+
+
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+#search-box {
+  text-align: center;
+}
+
+
+
+.flex-item-cart {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: lightblue;
+  align-items: center;
+
+  
+  margin: 10px;
+  width: 100%;
+  height: 300px;
+
+}
+
+.flex-img-cart {
+
+  text-align: right;
+  width: 200px;
+  margin: 10px;
+  
+}
+
+.flex-info-cart {
+  text-align: left;
+}
+
+.flex-buy-cart {
+
+ 
+  margin-right: 20px;
 
 }
 
