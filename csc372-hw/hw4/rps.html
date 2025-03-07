@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="rps.js" defer></script>
+</head>
+
+<body>
+
+    <section id="user-choice" >
+        <h2>Move Selector</h2>
+        <img src="images/rock.PNG" class="move" id="rock" alt="rock">
+        <img src="images/paper.PNG" class="move" id="paper" alt="paper">
+        <img src="images/scissors.PNG" class="move" id="scissors" alt="scissors">
+
+
+    </section>
+
+    <section id="computer-choice">
+        <h2>Computers Choice</h2>
+        <img src="images/question-mark.PNG" id="comp" alt="comp img">
+
+
+    </section>
+
+
+    <div id="outcome-box">
+        <div>
+            <p id="outcome">Select a move</p>
+
+            <button class="hidden" id="retry">Try Again</button>
+        </div>
+        
+        <div>
+            <p id="wins">Wins: 0</p>
+            <p id="losses">Losses: 0</p>
+            <p id="draws"> Drawn: 0</p>
+
+        </div>
+        
+        
+
+
+
+
+    </div>
+
+    <form action="./rps.html" id="reset-form">
+        <input type="submit" id="reset" value="Reset Tallies">
+    </form>
+
+
+    
+</body>
+
+</html>

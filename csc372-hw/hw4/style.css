@@ -1,0 +1,21 @@
+#user-choice {
+    display: flex;
+    justify-content: center;
+}
+#computer-choice {
+    display: block;
+    text-align: center;
+}
+
+#outcome-box {
+    display: flex;
+    justify-content:space-around;
+}
+
+.hidden {
+    display: none;
+}
+
+#reset-form {
+    text-align: center;
+}
