@@ -19,6 +19,7 @@ for (let i = 0; i < moves.length; i++) {
 
 function replay(event) {
     event.currentTarget.classList.add('hidden');
+    document.querySelector(".selected").classList.remove('selected');
     document.getElementById("comp").src = "images/question-mark.PNG";
     document.getElementById("outcome").innerHTML = "Select a move";
 
@@ -32,6 +33,7 @@ function playGame(event) {
 
         const move_type = event.currentTarget.id;
         console.log(move_type);
+        event.currentTarget.classList.add("selected");
 
         played = 1;
 
